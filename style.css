@@ -1,0 +1,72 @@
+body {
+    background-color:rgb(250, 244, 236);
+}
+
+#proheader {
+    color: whitesmoke;
+    background-color: steelblue;
+    font-family: 'Oswald', sans-serif;
+    padding: 10px;
+    position: static;
+    }
+
+.navigation_pills {
+    padding: 10px;
+    background-color: lightblue;
+    opacity: 85%;
+    font-weight: bolder; 
+}
+
+.img-fluid {
+    position: auto;
+    border-style: double;
+    border-width: 2px;
+    padding: 10px;
+    margin: 10px;
+}
+
+h1, h2 {
+    font-family: 'Oswald', sans-serif;
+    color: slategray;
+}
+
+p {
+color: gray;
+background-color: whitesmoke; 
+font-family: 'Hind Vadodara', sans-serif;
+padding: 5px;
+}
+
+.card {
+    margin: 5px;
+}
+
+.card-body {
+    text-align: center;
+    color: darkslategray;
+    padding: 5px;
+}
+
+@media only screen and (max-width: 411px) {
+    body {
+      background-color: lightblue;
+    }
+
+    .img-fluid {
+        width: 300px;
+        height: 300px;
+        margin: 20px;
+    }
+
+    h1 {
+        text-align: center;
+    }
+    
+    .navigation_pills {
+    background-color: whitesmoke;
+    font-size: 10px;
+    }
+  }
+
+
+
