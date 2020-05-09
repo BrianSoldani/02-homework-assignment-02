@@ -46,6 +46,13 @@ padding: 5px;
     color: darkslategray;
     padding: 5px;
 }
+ .carousel {
+     padding: 10px;
+ }
+
+ .portfolio-images img {
+    padding-bottom: 25px;
+ }
 
 #submit {
     background-color: lightgray;
