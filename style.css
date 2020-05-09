@@ -1,5 +1,6 @@
 body {
     background-color:rgb(250, 244, 236);
+    padding-bottom: 65px;
 }
 
 #proheader {
@@ -21,8 +22,10 @@ body {
     position: auto;
     border-style: double;
     border-width: 2px;
-    padding: 10px;
-    margin: 10px;
+    display: block;
+    margin: 0 auto;
+    width: 250px;
+    height: 250px;
 }
 
 h1, h2 {
@@ -54,11 +57,20 @@ padding: 5px;
     padding-bottom: 25px;
  }
 
-#submit {
-    background-color: lightgray;
-    color: white;
-    font: bold;
+.footer {
+    text-align: center;
+    font-size: 15px;
+    background-color: #ADD8E6;
+    color:white;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
 }
+
+a:active {
+    background-color: black;
+  }
+
 
 @media only screen and (max-width: 411px) {
     body {
@@ -68,7 +80,8 @@ padding: 5px;
     .img-fluid {
         width: 300px;
         height: 300px;
-        margin: 20px;
+        display: block;
+        margin: 0 auto 10px auto;
     }
 
     h1 {
@@ -78,6 +91,21 @@ padding: 5px;
     .navigation_pills {
     background-color: whitesmoke;
     font-size: 10px;
+    }
+
+    .footer {
+        text-align: center;
+        font-size: 10px;
+        background-color: steelblue;
+        color: white;
+    }
+
+    #footer-linkedin {
+        color: black;
+    }
+
+    #footer-email {
+        color: black;
     }
   }
 
