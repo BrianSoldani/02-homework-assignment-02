@@ -23,7 +23,7 @@ body {
     border-style: double;
     border-width: 2px;
     display: block;
-    margin: 0 auto;
+    margin: 10px auto;
     width: 250px;
     height: 250px;
 }
@@ -38,6 +38,7 @@ color: gray;
 background-color: whitesmoke; 
 font-family: 'Hind Vadodara', sans-serif;
 padding: 5px;
+margin-top: 10px;
 }
 
 .card {  
@@ -86,7 +87,7 @@ a:active {
         width: 300px;
         height: 300px;
         display: block;
-        margin: 0 auto 10px auto;
+        margin: 5 auto 10px auto;
     }
 
     h1 {
