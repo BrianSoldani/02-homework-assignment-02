@@ -17,11 +17,13 @@ Using the above mentioned technologies and code sources, the deployed applicatio
  - Personalized information.
  - Sticky footer with personal contact information.  
  - Semantic HTML elements were used in a logical flow on the page and commented in the HTML file.
+ - Every page passes HTML validation tool.
  - CSS sheet was updated to reflect changes in HTML.
  - CSS styles were consolidated when possible and commented for ease of use.
  
  ### Results
- 
+ The final application is optimized for screens as small as 360px. Images and page layouts respond as one would expect for all sizes of screens, whether using the development tools built into the Chrome browser, or using the actual various devices such as iPhone 5/6S+/iPad. The navigation bar works and all clickable items click through to the proper locations. The Contact form is in good working order and the sticky footer performs as expected.
+
 
 
 
